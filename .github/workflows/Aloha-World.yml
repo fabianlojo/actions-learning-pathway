@@ -1,9 +1,0 @@
-name: Aloha-World
-on: push
-jobs: 
-  Aloha-World-job:
-    runs-on: ubuntu-latest
-    steps:
-      - name: check out repository code
-        uses: actions/checkout@v3
-      - run: echo "$(cat Aloha_world.txt)"
